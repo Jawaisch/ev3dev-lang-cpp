@@ -5,6 +5,8 @@ if (NOT CMAKE_BUILD_TYPE)
 endif()
 
 project(ev3dev-lang-cpp)
+set(CMAKE_CC_COMPILER "arm-linux-gnueabi-gcc")
+set(CMAKE_CXX_COMPILER "arm-linux-gnueabi-g++")
 
 # Is this used directly or via add_subdirectory()
 set(EV3DEV_LANG_CPP_MASTER_PROJECT OFF)
