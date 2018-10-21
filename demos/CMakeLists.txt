@@ -6,3 +6,5 @@ add_ev3_executable(remote-control      remote-control.cpp)
 add_ev3_executable(remote_control-test remote_control-test.cpp)
 add_ev3_executable(sound-test          sound-test.cpp)
 add_ev3_executable(hello-world         hello-world.cpp)
+add_ev3_executable(_motor_a            _motor_a.cpp)
+
